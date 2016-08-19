@@ -20,4 +20,5 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'net.sf.saxon:Saxon-HE:9.7.0-7'
 }
