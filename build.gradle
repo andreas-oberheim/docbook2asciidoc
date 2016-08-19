@@ -14,7 +14,11 @@ repositories {
 dependencies {
     // programming languages
     compile "org.scala-lang:scala-library:$scala_version"
+    compile 'org.scala-lang.modules:scala-xml_2.11:1.0.5'
 
     // xslt
     compile 'net.sf.saxon:Saxon-HE:9.7.0-7'
+
+    // tools
+    compile 'com.google.guava:guava:19.0'
 }
