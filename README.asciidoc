@@ -1,3 +1,7 @@
+= Universal Markup Converter - DocBook to AsciiDoc
+
+This a markup converting tool that can be used from any JVM language such as Kotlin, Scala, Java, Groovy or whatever you like.
+
 This is a stylesheet for transforming DocBook 4.5 to http://www.methods.co.nz/asciidoc/[AsciiDoc], originally started by https://github.com/bjepson[bjepson].
 
 == Dependencies 
@@ -88,4 +92,6 @@ Finally, run the file command to convert the big docbook file into separate asci
 java -jar /Users/odewahn/Desktop/docbook2asciidoc/saxon9he.jar -s /Users/odewahn/Desktop/9781449307110/current/book.xml -o book.asciidoc /Users/odewahn/Desktop/docbook2asciidoc/d2a_docbook.xsl chunk-output=true
 ----
 
-
+== License
+'Universal Markup Converter - DocBook to AsciiDoc' is licensed under the MIT License.
+See link:LICENSE.txt[License] for more details.
