@@ -2,23 +2,19 @@ group 'universal-markup'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.0.3'
-
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
+    ext.scala_version = '2.11.8'
 }
 
-apply plugin: 'kotlin'
+apply plugin: 'scala'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    // programming languages
+    compile "org.scala-lang:scala-library:$scala_version"
+
+    // xslt
     compile 'net.sf.saxon:Saxon-HE:9.7.0-7'
 }
