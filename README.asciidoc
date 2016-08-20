@@ -1,6 +1,6 @@
 = Universal Markup Converter - DocBook to AsciiDoc
 
-This is a markup converting tool for transforming DocBook 4.5 to http://www.methods.co.nz/asciidoc/[AsciiDoc] that can be used from any JVM language such as Kotlin, Scala, Java, Groovy or whatever you like.
+This is a markup converting tool for transforming http://docbook.org/[DocBook] 4.5 to http://www.methods.co.nz/asciidoc/[AsciiDoc] that can be used from any JVM language such as Kotlin, Scala, Java, Groovy or whatever you like.
 It was originally started by https://github.com/bjepson[bjepson] and is a fork of https://github.com/oreillymedia/docbook2asciidoc[docbook2asciidoc by oreillymedia].
 
 == Dependencies 
